@@ -1,0 +1,46 @@
+
+button{
+    background-color: bisque;
+    cursor: pointer;
+    transition: all 0.5s;
+    height: 30px;
+    width: 80px;
+}
+
+body{
+    background-color: rgb(199, 199, 226);
+    position: center;  
+    background-image: url(../assets/Images/abstract-3304213_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+} 
+
+button:hover{
+    background-color: rgb(189, 178, 178);
+    transition: all 0.5s;
+    box-shadow: 5px 10px black ;
+    border: 1px solid black;
+}
+
+.center h1 {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.left {
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+    text-align: left;
+}
+  .ct {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
